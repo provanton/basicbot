@@ -5,7 +5,9 @@ Microsoft's [Official Bot Framework Documentation](https://docs.botframework.com
 This template will save you from wasting time.
 
 
+<br>
 <hr>
+<br>
 
 
 **For a tutorial on bot creation, visit this repo's [wiki](https://github.com/antonparas/basicbot/wiki)**
