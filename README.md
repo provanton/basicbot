@@ -1,4 +1,4 @@
-**This repository is a template for bot creation with [Microsoft's Bot Framework](https://dev.botframework.com/).**
+# This repository is a template for bot creation with [Microsoft's Bot Framework](https://dev.botframework.com/).
 
 <br>
 
