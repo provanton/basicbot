@@ -2,7 +2,9 @@
 
 <br>
 
-Microsoft's [Official Bot Framework Documentation](https://docs.botframework.com/en-us/) is vague. Such vagueness resulted in days of troubleshooting for me.
+Microsoft's Bot Framework helps you create chat bots and connect them to popular chat platforms such as SMS, Email, Skype, Slack, etc.
+
+But the [Official Bot Framework Documentation](https://docs.botframework.com/en-us/) is vague. Such vagueness resulted in days of troubleshooting for me.
 
 This template will save you from wasting time.
 
