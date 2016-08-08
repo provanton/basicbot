@@ -14,6 +14,7 @@ var builder = require('botbuilder');
  *    - ChatConnector, for online/deployment testing.
  *
  * UNCOMMENT THE CONNECTOR YOU WISH TO USE.
+ * ~CHAT CONNECTOR IS ENABLED BY DEFAULT~
  */
 
 // CONSOLE CONNECTOR
@@ -21,23 +22,23 @@ var builder = require('botbuilder');
 
 
 // CHAT CONNECTOR
-// var connector = new builder.ChatConnector({
-//   appId: process.env.MICROSOFT_APP_ID,
-//   appPassword: process.env.MICROSOFT_APP_PASSWORD
-// });
-//
-// var server = restify.createServer();
-//
-// server.post('/api/messages', connector.listen());
-//
-// server.get(/.*/, restify.serveStatic({
-//   'directory': '.',
-//   'default': 'index.html'
-// }));
-//
-// server.listen(process.env.port || 3978, function () {
-//   console.log('%s listening to %s', server.name, server.url);
-// });
+var connector = new builder.ChatConnector({
+  appId: process.env.MICROSOFT_APP_ID,
+  appPassword: process.env.MICROSOFT_APP_PASSWORD
+});
+
+var server = restify.createServer();
+
+server.post('/api/messages', connector.listen());
+
+server.get(/.*/, restify.serveStatic({
+  'directory': '.',
+  'default': 'index.html'
+}));
+
+server.listen(process.env.port || 3978, function () {
+  console.log('%s listening to %s', server.name, server.url);
+});
 
 
 
