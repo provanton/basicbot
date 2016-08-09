@@ -1,16 +1,16 @@
 {
-  "name": "basicbot",
+  "name": "your-bot-name",
   "version": "1.0.0",
-  "description": "Template for bot creation with MS Bot Framework",
+  "description": "your-description",
   "main": "server.js",
   "scripts": {
     "test": ""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antonparas/basicbot"
+    "url": "git+your-repo-url"
   },
-  "author": "Anton Paras",
+  "author": "your-name",
   "license": "ISC",
   "dependencies": {
     "botbuilder": "^3.1.1",
