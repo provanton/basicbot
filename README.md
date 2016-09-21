@@ -14,4 +14,4 @@ This template will save you from wasting time.
 
 
 
-**For a tutorial on bot creation, visit this repo's [wiki](https://github.com/antonparas/basicbot/wiki)**
+**For a tutorial on bot creation, visit this repo's [wiki](https://github.com/provanton/basicbot/wiki)**
